@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Hologram
+  m_Shader: {fileID: -6465566751694194690, guid: 4c4c614e73d934396bf9d0d78b04b95c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_a5871467c0d24cc59f03b0b93a0a1d1e:
+        m_Texture: {fileID: 2800000, guid: b968f11feaf044799b7622091c5e4b02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_de972a8773394b25b4f4a13570df4d5a_Texture2D7f757311504c46e4a002c5caa0ae92d8_2427329645:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_de972a8773394b25b4f4a13570df4d5a_Texture2Dc78669144970444cb4a01f601406d403_20735385:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HoloTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_8a7bfe2afee9481abfd4f74b0ef9c986: 1
+    - Boolean_953473cdb06a4979a6d9edca97421eda: 1
+    - Boolean_ec591f7cce1045419661b247b077674e: 0
+    - Vector1_07afb56a6c0943148031d1a86818cb11: 500
+    - Vector1_2ca13e259782434f95c61fc902d166d6: 0
+    - Vector1_2d112742d9c04791aa6e42b9885c869e: 0.2
+    - Vector1_476359095d46401b9090c682712ff89a: 3
+    - Vector1_4f2f443675b64fc7a62e38cc271bf7ac: 3
+    - Vector1_69c1ec4f9738417593d4470cfe2ab656: 0
+    - Vector1_86e0a08c5581420bb7bc420c71a4474e: 0.15
+    - Vector1_a0551857eeab4d42b5565bff5f621feb: 3
+    - Vector1_cb637d69cc1a41768583a69dea6efa62: 0
+    - Vector1_fb63e47097154564aa319cbf069a7f04: 4.05
+    - Vector1_fb84a7599e93492ba60f533a15001869: 3
+    - Vector1_fbfd56d48bc443f7801dd3d85c5f5d08: 0
+    - Vector1_ffc8157e455d41c4ba503ba347f8432c: 0.5
+    - _BrachFalse: 0.8
+    - _BrachTrue: 1
+    - _FresnelPower: 3
+    - _Glitch: 1
+    - _GlitchRate: 0.224
+    - _GlitchScale: 100
+    - _ScrollSpeed: 0.2
+    - _X_Value: 0.5
+    - _Y_Value: 0.5
+    - _Z_Value: 0.5
+    m_Colors:
+    - Color_53992c595e0d436f90fe9fb054e61de5: {r: 0.006426523, g: 1.9371728, b: 0, a: 1}
+    - Color_93610c10508f4128911cb14aba0b7088: {r: 2.79544, g: 0.13172232, b: 0.7317906, a: 0}
+    - Vector2_22b2687c41284a33b1b6a5e5622633fe: {r: 0, g: 3, b: 0, a: 0}
+    - _BaseColor: {r: 0, g: 0.3381496, b: 0.7254902, a: 0}
+    - _FresnelColor: {r: 1.868549, g: 0.07932516, b: 0.4872403, a: 0}
+    - _HoloTextureTiling: {r: 1, g: 3, b: 0, a: 0}
+  m_BuildTextureStacks: []
