@@ -51,6 +51,10 @@ public class HologramController : MonoBehaviour
     public GlitchAdjustment glitchAdjustment;
     [HideInInspector] public int currentTab;
 
+    /// <summary>
+    /// Set material properties use "colorAdjustment" variables.
+    /// </summary>
+
     public void SetColorAdjustment()
     {
         mat = GetComponent<MeshRenderer>().material;
@@ -58,6 +62,11 @@ public class HologramController : MonoBehaviour
         mat.SetColor("_FresnelColor", colorAdjustment.FresnelColor);
         mat.SetFloat("_FresnelPower", colorAdjustment.FresnelPower);
     }
+
+    /// <summary>
+    /// Set material properties use "textureAdjustment" variables.
+    /// </summary>
+
     public void SetTextureAdjustment()
     {
         mat = GetComponent<MeshRenderer>().material;
@@ -67,6 +76,13 @@ public class HologramController : MonoBehaviour
         mat.SetFloat("_BrachTrue", textureAdjustment.BrachTrue);
         mat.SetFloat("_BrachFalse", textureAdjustment.BrachFalse);
     }
+
+    /// <summary>
+    /// Set material properties use "glitchAdjustment" variables.
+    /// If "useGlitch" is true.
+    /// Else use standard values.
+    /// </summary>
+
     public void SetGlitchAdjustment()
     {
         mat = GetComponent<MeshRenderer>().material;

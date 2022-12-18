@@ -6,6 +6,11 @@ using UnityEditor;
 [CustomEditor(typeof(HologramController))]
 public class HologramControllerEditor : Editor
 {
+
+    /// <summary>
+    /// Get "HologramController" from target gameobject.
+    /// And set tabs.
+    /// </summary>
     public override void OnInspectorGUI()
     {
         HologramController hologramController = (HologramController)target;
@@ -30,6 +35,11 @@ public class HologramControllerEditor : Editor
                 break;
         }
     }
+
+    /// <summary>
+    /// Set "colorAdjustment" variables with editor fields.
+    /// </summary>
+    /// <param name="hologram"></param>
     void ColorAdjustment(HologramController hologram)
     {
         EditorGUILayout.LabelField("BodyColor", EditorStyles.boldLabel);
@@ -46,6 +56,10 @@ public class HologramControllerEditor : Editor
         }
     }
 
+    /// <summary>
+    /// Set "textureAdjustment" variables with editor fields.
+    /// </summary>
+    /// <param name="hologram"></param>
     void TextureAdjustmentstment(HologramController hologram)
     {
         EditorGUILayout.LabelField("Holo Texture", EditorStyles.boldLabel);
@@ -63,6 +77,11 @@ public class HologramControllerEditor : Editor
             hologram.SetTextureAdjustment();
         }
     }
+
+    /// <summary>
+    /// Set "glitchAdjustment" variables with editor fields.
+    /// </summary>
+    /// <param name="hologram"></param>
     void GlitchAdjustment(HologramController hologram)
     {
         EditorGUILayout.LabelField("Use Glitch", EditorStyles.boldLabel);
